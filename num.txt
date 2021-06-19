@@ -1,0 +1,9 @@
+#!/bin/bash
+
+for i in {1,45,32,21,5,17,43,93}; do
+  if [[ "$i" > '25' ]]; then
+    Echo " over "
+  else
+  echo " under"
+  fi
+done
